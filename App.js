@@ -10,13 +10,13 @@ const buttonDelete = document.getElementsByName('data-delete')[0];
 
 //Variables
 
-var result = document.getElementById('result');
+let result = document.getElementById('result');
 
-var currentOpe = '';
+let currentOpe = '';
 
-var prevOpe = '';
+let prevOpe = '';
 
-var operation = undefined;
+let operation = undefined;
 
 console.log(result);
 
@@ -67,7 +67,7 @@ function selectOperation(op)
 
 function calc()
 {
-    var calc;
+    let calc;
     const previous = parseFloat(prevOpe);
     const current = parseFloat(currentOpe);
 
